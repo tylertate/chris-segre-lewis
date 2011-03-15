@@ -1,0 +1,56 @@
+// GRID //
+@import 'grid.less';
+@column-width: 80;
+@gutter-width: 30;
+@columns: 12;
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+}
+header {
+	.row;
+	
+	// logo //
+	h1 {
+		.grid(6);
+		padding: 1em 0;
+	}
+	
+	// navigation //
+	nav {
+		.grid(6);
+		padding: 1em 0;
+		
+		ul {
+			float: right;
+			overflow: hidden;
+			
+			li {
+				list-style: none outside none;
+				float: left;
+			}
+		}
+	}
+	
+	// hero image //
+	section#hero {
+		.grid(12);
+		
+		height: 500px;
+		background-color: #e9e9e9;
+	}
+	
+}
+article {
+	.row;
+	margin-top: 10px;
+	
+	section {
+		.grid(8);
+	}
+	aside {
+		.grid(4);
+		background-color: #e9e9e9;
+	}
+}

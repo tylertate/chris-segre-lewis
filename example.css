@@ -1,0 +1,73 @@
+body {
+  padding: 0 1.1363636363636365%;
+  margin: 0;
+}
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+header {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  width: 102.27272727272727%;
+  margin: 0 -1.1363636363636365%;
+}
+header h1 {
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 47.72727272727273%;
+  margin: 0 1.1363636363636365%;
+  padding: 1em 0;
+}
+header nav {
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 47.72727272727273%;
+  margin: 0 1.1363636363636365%;
+  padding: 1em 0;
+}
+header nav ul {
+  float: right;
+  overflow: hidden;
+}
+header nav ul li {
+  list-style: none outside none;
+  float: left;
+}
+header section#hero {
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 97.72727272727273%;
+  margin: 0 1.1363636363636365%;
+  height: 500px;
+  background-color: #e9e9e9;
+}
+article {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  width: 102.27272727272727%;
+  margin: 0 -1.1363636363636365%;
+  margin-top: 10px;
+}
+article section {
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 64.39393939393939%;
+  margin: 0 1.1363636363636365%;
+}
+article aside {
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 31.060606060606062%;
+  margin: 0 1.1363636363636365%;
+  background-color: #e9e9e9;
+}
