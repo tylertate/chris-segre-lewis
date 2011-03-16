@@ -1,34 +1,63 @@
 body {
-  padding: 0 1.1363636363636365%;
+  padding: 0 1.0416666666666665%;
   margin: 0;
 }
+body, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: .95em;
+  padding-bottom: 3em;
+}
+p {
+  line-height: 1.5em;
+}
+#bg {
+  display: none;
+  position: fixed;
+  left: 50%;
+  margin-left: -2425px;
+  width: 2000px;
+  height: 100%;
+  border-right: 1px dotted #ccc;
+  z-index: 0;
+}
 #container {
-  width: 960px;
+  position: relative;
+  width: 1120px;
   margin: 0 auto;
+  z-index: 1;
 }
 header {
   display: block;
   overflow: hidden;
   margin: 0 auto;
   width: 100%;
-  width: 102.27272727272727%;
-  margin: 0 -1.1363636363636365%;
+  width: 101.78571428571428%;
+  margin: 0 -0.8928571428571428%;
 }
 header h1 {
   display: block;
   overflow: hidden;
   float: left;
-  width: 47.72727272727273%;
-  margin: 0 1.1363636363636365%;
-  padding: 1em 0;
+  width: 41.07142857142857%;
+  margin: 0 0.8928571428571428%;
+  padding: 1em 0 0.5em 0;
+  font-size: 2.5em;
+  line-height: 1.2em;
+  font-weight: normal;
+  font-family: "raleway-1", "raleway-2";
+  color: #526655;
+  padding-left: 160px;
 }
 header nav {
   display: block;
   overflow: hidden;
   float: left;
-  width: 47.72727272727273%;
-  margin: 0 1.1363636363636365%;
-  padding: 1em 0;
+  width: 41.07142857142857%;
+  margin: 0 0.8928571428571428%;
 }
 header nav ul {
   float: right;
@@ -37,14 +66,35 @@ header nav ul {
 header nav ul li {
   list-style: none outside none;
   float: left;
+  padding: 3.5em 0 0 0;
+  margin: 0.25em 0 0 2em;
+  text-transform: uppercase;
 }
-header section#hero {
+header nav ul li a {
+  text-decoration: none;
+  color: #999;
+}
+header nav ul li:hover {
+  border-top: 0.25em solid #ccc;
+  margin-top: 0;
+}
+header figure#hero {
   display: block;
   overflow: hidden;
   float: left;
-  width: 97.72727272727273%;
-  margin: 0 1.1363636363636365%;
-  height: 500px;
+  width: 98.21428571428571%;
+  margin: 0 0.8928571428571428%;
+}
+header figure#hero figcaption {
+  display: block;
+  position: relative;
+  font-family: Georgia;
+  font-style: italic;
+  color: #666;
+  font-size: 1.25em;
+  padding: 0.5em;
+  margin-left: 160px;
+  margin-top: -3px;
   background-color: #e9e9e9;
 }
 article {
@@ -52,22 +102,23 @@ article {
   overflow: hidden;
   margin: 0 auto;
   width: 100%;
-  width: 102.27272727272727%;
-  margin: 0 -1.1363636363636365%;
+  width: 101.78571428571428%;
+  margin: 0 -0.8928571428571428%;
   margin-top: 10px;
 }
 article section {
   display: block;
   overflow: hidden;
   float: left;
-  width: 64.39393939393939%;
-  margin: 0 1.1363636363636365%;
+  width: 55.35714285714286%;
+  margin: 0 0.8928571428571428%;
+  padding-left: 160px;
 }
-article aside {
-  display: block;
-  overflow: hidden;
-  float: left;
-  width: 31.060606060606062%;
-  margin: 0 1.1363636363636365%;
-  background-color: #e9e9e9;
+article section h2 {
+  width: 130px;
+  margin: 1.5em 0 -2.4em -160px;
+  text-align: right;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-transform: uppercase;
 }
